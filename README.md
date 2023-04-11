@@ -50,11 +50,11 @@ printf("%*d", width, num);
 ### **The precision**
 
  An optional precision, in the form of a period ('*.*') followed by an optional decimal digit string. A negative precision is taken as if the precision were omitted. This gives the minimum number of digits to appear for d, i, o, u, x, and X conversions, or the maximum number of characters to be printed from a string for s and S conversions. A character * can be used instead of a decimal string. In this case, an argument passed to the function will be taken as the precision value.
-```
+```c
 printf("%.3d", num);
 ```
 or
-```
+```c
 printf("%.*d", precision, num);
 ```
 
